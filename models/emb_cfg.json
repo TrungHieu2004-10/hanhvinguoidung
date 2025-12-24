@@ -1,0 +1,10 @@
+{
+  "model": "rf_with_sbert_embeddings",
+  "sbert_model_name": "paraphrase-multilingual-MiniLM-L12-v2",
+  "rf_n_estimators": 500,
+  "rf_max_depth": null,
+  "oversample": true,
+  "data_path": "data/raw/tweets.csv",
+  "text_col": "tweet_text",
+  "label_col": "is_there_an_emotion_directed_at_a_brand_or_product"
+}
