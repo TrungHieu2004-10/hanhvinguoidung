@@ -1,0 +1,14 @@
+# Model & data lớn
+models/
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Streamlit
+.streamlit/
